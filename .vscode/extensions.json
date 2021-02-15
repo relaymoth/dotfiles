@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "tabnine.tabnine-vscode",
+    "wix.vscode-import-cost"
+  ]
+}
