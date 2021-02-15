@@ -89,7 +89,7 @@
 
 ## Script to Generate the Listing
 
-I used the [Quokka.js]() VS Code extension and script below to generate the extensions listing.  Once the extension is installed, press Ctrl/Cmd + Shift + P to display the editor’s command palette, and then type Quokka to see the list of the available commands. Select and run the New JavaScript File command.  Past the following JS code into the new file, save, and hit the play button.  The results will be copied to the clipboard.
+I used the [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode) VS Code extension and script below to generate the extensions listing.  Once the extension is installed, press Ctrl/Cmd + Shift + P to display the editor’s command palette, and then type Quokka to see the list of the available commands. Select and run the New JavaScript File command.  Past the following JS code into the new file, save, and hit the play button.  The results will be copied to the clipboard.
 
 ```js
 const { execSync, spawn } = require('child_process')
