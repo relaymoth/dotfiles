@@ -6,4 +6,4 @@ Hey, Jeff! What settings do you use?
 
 ### Attribution
 
-The background of teh hero image is by [Dmitry Chernyshov, Unsplash](https://unsplash.com/photos/mP7aPSUm7aE).
+The background of the hero image is by [Dmitry Chernyshov, Unsplash](https://unsplash.com/photos/mP7aPSUm7aE).
