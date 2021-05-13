@@ -2,7 +2,7 @@
 
 Hey, Jeff! What settings do you use?
 
-![Glowing MacBook Pro dotfiles Hero Image](assets/img/dotfiles-hero.jpg)
+![Glowing MacBook Pro dotfiles Hero Image](assets/img/dotfiles-hero.jpeg)
 
 ### Attribution
 
