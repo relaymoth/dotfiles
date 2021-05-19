@@ -8,7 +8,7 @@ alias lc="colorls --sd -A"
 alias ls='lsd'
 
 # Weather
-alias weather="curl wttr.in"
+alias weather="curl wttr.in\?qF"
 alias weatherd="curl v2.wttr.in/Bridgeport-Pennsylvania"
 alias moon="curl wttr.in/Moon"
 
