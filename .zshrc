@@ -132,5 +132,5 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 #neofetch
 #eval "$(starship init zsh)"
 
-# source oh-my-zsh config
+# Source oh-my-zsh config
 source $ZSH/oh-my-zsh.sh
