@@ -48,6 +48,7 @@ alias weather="curl wttr.in\?qF"
 alias weatherd="curl v2.wttr.in/Bridgeport-Pennsylvania"
 alias moon="curl wttr.in/Moon"
 
+eval $(thefuck --alias)
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
@@ -130,4 +131,4 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 # ACTIONS ON NEW TERMINAL
 #----------------------------------------------------------------
 
-neofetch
+#neofetch
