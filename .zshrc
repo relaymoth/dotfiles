@@ -121,8 +121,6 @@ export FZF_BASE=/path/to/fzf/install/dir
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-# source oh-my-zsh config
-source $ZSH/oh-my-zsh.sh
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 [ -f "/Users/jt/.ghcup/env" ] && source "/Users/jt/.ghcup/env" # ghcup-env
@@ -132,3 +130,7 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 #----------------------------------------------------------------
 
 #neofetch
+#eval "$(starship init zsh)"
+
+# source oh-my-zsh config
+source $ZSH/oh-my-zsh.sh
