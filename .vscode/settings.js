@@ -7,16 +7,7 @@
   //----------------------------------------------------------------
   // Color Themes
   //----------------------------------------------------------------
-  // 1984 - Fancy (juanmnl.vscode-theme-1984)
-  //"workbench.colorTheme": "1984 - Fancy",
-  // Cobalt2 Theme Official (wesbos.theme-cobalt2)
-  // "workbench.colorTheme": "Cobalt2",
-  // Night Owl (sdras.night-owl)
-  //"workbench.colorTheme": "Night Owl",
-  // Retreon Color Theme (kgscott.retreon)
-  "workbench.colorTheme": "Retreon",
-  // Shades opf Purple (ahmadawais.shades-of-purple)
-  //"workbench.colorTheme": "Shades of Purple",
+  "workbench.colorTheme": "Night Owl",
   //----------------------------------------------------------------
   // Color Customizations
   //----------------------------------------------------------------
@@ -37,163 +28,6 @@
       "sideBar.foreground": "#8BADC1"
     }
   },
-  "editor.tokenColorCustomizations": {
-    "[1984 - Fancy]": {
-      "textMateRules": [
-        {
-          "name": "Language variable",
-          "scope": ["variable.language", "variable.other.object.js"],
-          "settings": {
-            "foreground": "#00c9c5"
-          }
-        },
-        {
-          "name": "Entity",
-          "scope": "entity.name",
-          "settings": {
-            "foreground": "#00c9c5"
-          }
-        },
-        {
-          "name": "HTML or XML tag",
-          "scope": "entity.name.tag",
-          "settings": {
-            "foreground": "#00c9c5"
-          }
-        },
-        {
-          "name": "Class",
-          "scope": "entity.name.type",
-          "settings": {
-            "foreground": "#00c9c5"
-          }
-        },
-        {
-          "name": "Support",
-          "scope": "support",
-          "settings": {
-            "foreground": "#00c9c5"
-          }
-        },
-        {
-          "name": "Object literal key / property",
-          "scope": ["meta.object-literal.key", "support.type.property-name"],
-          "settings": {
-            "foreground": "#00c9c5"
-          }
-        }
-      ]
-    },
-    "[Retreon]": {
-      "textMateRules": [
-        {
-          "scope": "emphasis",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": "strong",
-          "settings": {
-            "fontStyle": "bold"
-          }
-        },
-        {
-          "scope": "entity.other.attribute-name",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": "markup.underline",
-          "settings": {
-            "fontStyle": "underline"
-          }
-        },
-        {
-          "scope": "markup.bold",
-          "settings": {
-            "fontStyle": "bold"
-          }
-        },
-        {
-          "scope": "markup.heading",
-          "settings": {
-            "fontStyle": "bold"
-          }
-        },
-        {
-          "scope": "markup.italic",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": "storage.type",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": "storage.modifier",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "name": "String interpolation",
-          "scope": [
-            "punctuation.definition.template-expression.begin",
-            "punctuation.definition.template-expression.end",
-            "punctuation.section.embedded"
-          ],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": "keyword.control",
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": [
-            "keyword.operator.new",
-            "keyword.operator.expression",
-            "keyword.operator.cast",
-            "keyword.operator.sizeof",
-            "keyword.operator.logical.python"
-          ],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "name": "this.self",
-          "scope": "variable.language",
-          "settings": {
-            "fontStyle": "italic",
-            "foreground": "#ff5874"
-          }
-        },
-        {
-          "name": "@Decorator",
-          "scope": ["meta.decorator punctuation.decorator"],
-          "settings": {
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": ["punctuation.definition.comment", "comment"],
-          "settings": {
-            // "foreground": "#ff5874",
-            "fontStyle": "italic"
-          }
-        }
-      ]
-    }
-  },
   //****************************************************************************
   //
   // Text
@@ -205,8 +39,9 @@
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "editor.hover.enabled": true,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   //****************************************************************************
   //
   // Auto-save Configs
@@ -278,6 +113,7 @@
   "editor.tabSize": 2,
   "editor.useTabStops": true,
   "editor.wordWrap": "on",
+  "editor.inlineSuggest.enabled": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "markdown": "html"
@@ -324,53 +160,8 @@
     "ts"
   ],
   //----------------------------------------------------------------
-  // Custom CSS and JS Loader (be5invis.vscode-custom-css)
-  // https: //marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
-  //----------------------------------------------------------------
-  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
-  // you'll need to change this to an absolute path on your computer
-  "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/jt/.vscodestyles.css"
-  ],
-  "vscode_custom_css.policy": true,
-  //----------------------------------------------------------------
-  // Live Server (ritwickdey.liveserver)
-  // https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-  //----------------------------------------------------------------
-  "liveServer.settings.donotShowInfoMsg": true,
-  //----------------------------------------------------------------
-  // Relative Path (jakob101.relativepath)
-  // https://marketplace.visualstudio.com/items?itemName=jakob101.RelativePath
-  //----------------------------------------------------------------
-  // An array of extensions to exclude from the relative path url (Useful for
-  // used with Webpack or when importing files of mixed types)
-  "relativePath.excludedExtensions": [
-    ".js"
-  ],
-  // An array of glob keys to ignore when searching.
-  "relativePath.ignore": [
-    "**/node_modules/**",
-    "**/*.dll",
-    "**/obj/**",
-    "**/objd/**"
-  ],
-  // Excludes the extension from the relative path url (Useful for systemjs
-  // imports).
-  "relativePath.removeExtension": false,
-  //----------------------------------------------------------------
-  // Tabnine Autocomplete AI (tabnine.tabnine-vscode)
-  // https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode
-  //----------------------------------------------------------------
-  "tabnine.experimentalAutoImports": true,
-  //----------------------------------------------------------------
   // Todo Tree (gruntfuggly.todo-tree)
   // https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
   //----------------------------------------------------------------
-  "todo-tree.tree.showScanModeButton": false,
-  //----------------------------------------------------------------
-  // XML Tools (dotjoshjohnson.xml)
-  // https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
-  //----------------------------------------------------------------
-  "xmlTools.enableXmlTreeView": true,
-  // END
+  "todo-tree.tree.showScanModeButton": false, 
 }
