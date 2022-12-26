@@ -1,8 +1,15 @@
 {
   "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "tabnine.tabnine-vscode",
+    "firsttris.vscode-jest-runner",
+    "mattpocock.ts-error-translator",
+    "moalamri.inline-fold",
+    "ms-playwright.playwright",
+    "nrwl.angular-console",
+    "statelyai.stately-vscode",
     "wix.vscode-import-cost"
   ]
 }
